@@ -1,5 +1,5 @@
 """
-WSGI config for podcast_summary project.
+WSGI config for podcast2text project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'podcast_summary.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'podcast2text.settings')
 
 application = get_wsgi_application()
